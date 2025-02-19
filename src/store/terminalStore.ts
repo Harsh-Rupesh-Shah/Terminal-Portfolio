@@ -7,7 +7,7 @@ export const useTerminalStore = create<TerminalState>((set) => ({
   currentHistoryIndex: -1,
   theme: 'matrix',
   font: 'Fira Code',
-  fontSize: 14,
+  fontSize: 18,
   opacity: 0.9,
   addToHistory: (item: HistoryItem) =>
     set((state) => ({ history: [...state.history, item] })),
